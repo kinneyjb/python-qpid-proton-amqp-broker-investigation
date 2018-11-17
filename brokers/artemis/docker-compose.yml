@@ -1,0 +1,13 @@
+version: '2.2'
+services:
+  broker:
+    build: .
+    image: artemis:latest
+    healthcheck:
+      test: ["CMD", "nc -z localhost 8161"]
+    ports:
+      - "8161:8161"
+      - "5672:5672"
+    volumes:
+      - ./conf:/opt/broker/instance/etc
+      - ./data:/opt/broker/instance/data
