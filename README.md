@@ -8,9 +8,9 @@ I "tested" a [simple python qpid proton message handler](./tests/test_docker_bro
 
 Included in this repo are 3 brokers:
 
-1. [Apache ActiveMQ](http://activemq.apache.org/) Docker stuff: [brokers/activemq](broker/activemq)
-1. [Apache ActiveMQ Artemis](https://activemq.apache.org/artemis/) Docker stuff: [brokers/artemis](broker/artemis)
-1. [RabbtiMQ](https://github.com/rabbitmq/rabbitmq-amqp1.0/blob/v3.7.9/README.md) Docker stuff: [brokers/rabbitmq](broker/rabbitmq)
+1. [Apache ActiveMQ](http://activemq.apache.org/) Docker stuff: [brokers/activemq](brokers/activemq)
+1. [Apache ActiveMQ Artemis](https://activemq.apache.org/artemis/) Docker stuff: [brokers/artemis](brokers/artemis)
+1. [RabbtiMQ](https://github.com/rabbitmq/rabbitmq-amqp1.0/blob/v3.7.9/README.md) Docker stuff: [brokers/rabbitmq](brokers/rabbitmq)
 
 
 ActiveMQ and Artemis worked.
