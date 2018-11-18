@@ -15,3 +15,24 @@ Included in this repo are 3 brokers:
 
 ActiveMQ and Artemis worked.
 RabbitMQ had problems.
+
+
+## running
+
+1) Run a broker using the provided docker-compose files.
+
+```bash
+$ cd brokers/activemq
+$ docker-compose up -d
+$ cd ../..
+```
+
+2) Setup your python environment and run the tests.
+
+```bash
+$ pipenv sync --dev
+$ pipenv shell
+$ pytest tests
+```
+
+
