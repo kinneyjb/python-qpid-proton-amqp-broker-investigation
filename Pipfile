@@ -7,8 +7,10 @@ name = "pypi"
 python-qpid-proton = "*"
 pytest = "*"
 "flake8" = "*"
+pyyaml = "*"
 
 [dev-packages]
+docker = "*"
 
 [requires]
 python_version = "3.7"

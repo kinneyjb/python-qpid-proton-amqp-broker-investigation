@@ -2,7 +2,7 @@ version: '2.2'
 services:
   broker:
     build: .
-    image: activemq:latest
+    image: plasma-activemq:latest
     healthcheck:
       test: ["CMD", "nc -z localhost 8161"]
     ports:

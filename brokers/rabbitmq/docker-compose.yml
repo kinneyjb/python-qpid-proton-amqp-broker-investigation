@@ -1,7 +1,7 @@
 version: '2.2'
 services:
   broker:
-    image: rabbitmq:3.7.8-management-alpine
+    image: plasma-rabbitmq:latest
     build: .
     healthcheck:
       test: ["CMD", "nc -z localhost 5672"]
